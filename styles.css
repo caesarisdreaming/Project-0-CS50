@@ -125,10 +125,12 @@ a:hover {
 
 .field-label-adv{
     font-size: 13px;
+    margin: auto;
 }
 
 .field-adv{
     margin-top: 20px;
+    vertical-align: middle;
 }
 
 .navbar-pic-adv {
@@ -219,4 +221,14 @@ a:hover {
     right: 15px;
     width: 25px;
     cursor: pointer;
+}
+
+.field-div-adv {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+.fieldlabel-div-adv {
+    width: 182px;
 }
