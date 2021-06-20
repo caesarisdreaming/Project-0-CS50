@@ -125,7 +125,6 @@ a:hover {
 
 .field-label-adv{
     font-size: 13px;
-    margin: auto;
 }
 
 .field-adv{
@@ -227,6 +226,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
+    height: 50px;
+    align-items: center;
 }
 
 .fieldlabel-div-adv {

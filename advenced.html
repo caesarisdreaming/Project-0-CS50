@@ -24,17 +24,16 @@
                     <div id="fields-adv">
                         <div id="titlessearch-adv">
                             <span id="titlesearch-adv">Find pages with...</span>
-                            <span id="titlesearch-detail-adv">To do this in the search box.
-                            </span>
+                            <span id="titlesearch-detail-adv">To do this in the search box.</span>
                         </div>
-                        <div id="searchsection-adv">
+                        <form id="searchsection-adv" action="https://google.com/search" name="f">
                             <div>
                                 <div class="field-div-adv">
                                     <div class="fieldlabel-div-adv">
                                         <span class="field-label-adv">all these words:</span>
                                     </div>
                                     <div class="field-div-adv">
-                                        <input class="field-adv" type="text" value="">
+                                        <input class="field-adv" type="text" value="" name="as_q">
                                     </div>
                                     <div>
                                         <span>Type the important words: tri-colour rat terrier</span>
@@ -45,7 +44,7 @@
                                         <span class="field-label-adv">this exact word or phrase:</span>
                                     </div>
                                     <div class="field-div-adv">
-                                        <input class="field-adv" type="text" value="">
+                                        <input class="field-adv" type="text" value="" name="as_epq">
                                     </div>
                                     <div>
                                         <span>Put exact words in quotes: "rat terrier"</span>
@@ -56,7 +55,7 @@
                                         <span class="field-label-adv">any of these words:</span>
                                     </div>
                                     <div class="field-div-adv">
-                                        <input class="field-adv" type="text" value="">
+                                        <input class="field-adv" type="text" value="" name="as_oq">
                                     </div>
                                     <div>
                                         <span>Type OR between all the words you want: miniature OR standard</span>
@@ -67,14 +66,17 @@
                                         <span class="field-label-adv">none of these words:</span>
                                     </div>
                                     <div class="field-div-adv">
-                                        <input class="field-adv" type="text" value="">
+                                        <input class="field-adv" type="text" value="" name="as_eq">
                                     </div>
                                     <div>
                                         <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
                                     </div>
                                 </div>
+                                <div>
+                                    <input type="submit" value="Advanced Search">
+                                </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </form>
             </div>
