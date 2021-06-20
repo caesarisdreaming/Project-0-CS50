@@ -102,34 +102,39 @@ a:hover {
     flex-direction: column;
 }
 
-#search-body-adv{
+#search-body-adv {
     margin-left: 40px;
     margin-top: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#titlesearch-adv{
+#titlesearch-adv {
     font-size: 16px;
     flex: 1;
 }
 
-#titlesearch-detail-adv{
+#titlesearch-detail-adv {
     flex: 1;
+    font-family: arial;
+    font-size: 13px;
+    color: #777777;
+    font-weight: 700;
 }
 
-#titlessearch-adv{
+#titlessearch-adv {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
 
-.field-label-adv{
+.field-label-adv {
     font-size: 13px;
 }
 
-.field-adv{
-    margin-top: 20px;
+.field-adv {
     vertical-align: middle;
+    width: 574px;
+    height: 25px;
 }
 
 .navbar-pic-adv {
@@ -142,12 +147,12 @@ a:hover {
     text-align: center;
 }
 
-.search-button:hover{
+.search-button:hover {
     border: 1px solid #dcdcdc;
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
-.navbar-button{
+.navbar-button {
     /* margin: auto; */
     margin-top: 10px;
     margin-right: 30px;
@@ -159,7 +164,7 @@ a:hover {
     font-weight: normal;
 }
 
-.search-button{
+.search-button {
     width: 150px;
     height: 40px;
     border-style: solid;
@@ -171,7 +176,7 @@ a:hover {
     margin: 0px 10px 0px;
 }
 
-.navbar-button:visited{
+.navbar-button:visited {
     color: dimgray;
     font-weight: normal;
 }
@@ -196,6 +201,7 @@ a:hover {
     top: 16px;
     left: 20px;
     width: 14px;
+    padding-top: inherit;
 }
 
 .clear-icon {
@@ -212,24 +218,65 @@ a:hover {
     display: flex;
     min-width: 100px;
     margin: auto;
+    padding-top: 20px;
 }
 
-.searchbutton-icon-img{
+.searchbutton-icon-img {
     position: absolute;
     top: 10px;
     right: 15px;
     width: 25px;
     cursor: pointer;
+    padding-top: inherit;
 }
 
-.field-div-adv {
+.fieldbox-div-adv {
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
     height: 50px;
     align-items: center;
 }
 
+
 .fieldlabel-div-adv {
     width: 182px;
+}
+
+.fielddescription-adv {
+   color: rgb(102, 102, 102);
+   font-family: arial;
+   font-size: 11px;
+}
+
+.fielddescription-adv-exp {
+    color: rgb(102, 102, 102);
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.fielddescription-div-adv {
+    margin-left: 20px;
+}
+
+.submit-adv{
+    border-radius: 2px;
+    font-size:11px;
+    font-weight:bold;
+    text-align:center;
+    height:30px;
+    min-width:120px;
+    background-color: rgb(53, 122, 232);
+    color: white;
+    border: 1px solid #3079ed;
+    padding: 0 12px;
+    float: right;
+}
+    
+
+.submit-adv:hover {
+    box-shadow:0 1px 1px rgba(0,0,0,.1);
+}
+
+.field-div-adv{
+    width: 574px;
 }
